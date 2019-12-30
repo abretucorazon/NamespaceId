@@ -41,7 +41,7 @@ Format of response:
 
         "1577686871322" -  Current system time: System.currentTimeMillis()
 
-        "14425"	        -  Current process Id
+        "14425"         -  Current process Id
 
         "192.168.0.149" -  IP address of localHost
 ----
