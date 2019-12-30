@@ -5,27 +5,27 @@ Web service to return a unique id per namespace
 
 Clone Repository:
 ----
-git clone https://github.com/abretucorazon/NamespaceId.git
+    git clone https://github.com/abretucorazon/NamespaceId.git
 ----
 
 Build and run this project:
 ----
-./mvnw spring-boot:run
+    ./mvnw spring-boot:run
 ----
 
 Build Jar file:
 ----
-./mvnw clean package
+    ./mvnw clean package
 ----
 
 Execute jar file:
 ----
-java -jar target/gs-rest-service-0.1.0.jar
+    java -jar target/gs-rest-service-0.1.0.jar
 ----
 
 Issue a request in browser:
 ----
-http://localhost:8080/getId?namespace=User
+    http://localhost:8080/getId?namespace=User
 ----
 
 Example of response: 
@@ -42,7 +42,7 @@ Format of response:
         "1577686871322" -  Current system time: System.currentTimeMillis()
 
         "14425"	        -  Current process Id
-        
+
         "192.168.0.149" -  IP address of localHost
 ----
 
