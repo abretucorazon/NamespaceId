@@ -4,9 +4,9 @@ Web service to return a unique id per namespace
 (This project is based on https://spring.io/guides/gs/rest-service/)
 
 Clone Repository:
-....
+----
     git clone https://github.com/abretucorazon/NamespaceId.git
-....
+----
 
 Build and run this project:
 ----
